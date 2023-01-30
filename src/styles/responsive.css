@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/bg-mobile.png) no-repeat center center;
+    background-color: var(--very-dark-blue);
+    background-size: cover;
+    font-size: 1.4rem;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem;
+    padding: 4rem;
+  }
+
+  /* ==================== */
+  .container .storage-hub {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--dark-blue);
+    padding: 4.5rem 2rem 3.5rem 4rem;
+    border-radius: 1rem 10rem 1rem 1rem;
+    max-width: 33rem;
+  }
+  /* ==================== */
+  .container .current-storage {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+    max-width: 33rem;
+    padding: 3rem 2rem 6rem;
+    transform: translateY(0%);
+    position: relative;
+  }
+  /* ...................... */
+  .container .current-storage .usage-paragraph {
+    font-weight: 400;
+    color: var(--pale-blue);
+    align-self: center;
+  }
+  .container .current-storage .first-info .storage-bar {
+    width: 90%;
+    height: 1.8rem;
+    background-color: var(--very-dark-blue);
+    border-radius: 10px;
+  }
+  .container .current-storage .storage-bar .progress-bar {
+    border-radius: 10px;
+    height: 100%;
+    width: 77%;
+    background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    position: relative;
+  }
+  .container .current-storage .storage-bar .progress-bar::after {
+    content: "";
+    background-color: var(--pale-blue);
+    padding: 6px;
+    position: absolute;
+    left: 180px;
+    display: inline-block;
+    transform: translateY(4px);
+    border-radius: 50%;
+  }
+  /* ...................... */
+  .container .current-storage .float-info .storage-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    background-color: var(--pale-blue);
+    padding: 0.7rem;
+    position: relative;
+    width: 18rem;
+    transform: translateY(130%);
+    left: 30%;
+  }
+  .container .current-storage .float-info .storage-info::after {
+    content: "";
+    border-bottom: 0;
+    border-right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1439px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/bg-desktop.png) no-repeat left -10rem bottom -30rem;
+    background-color: var(--very-dark-blue);
+    background-size: cover;
+    font-size: 1.4rem;
+    font-family: "Raleway", sans-serif;
+  }
+}
+@media (hover: none) {
+    .container .storage-hub .folders .link-folder:hover .icon-folder {
+        padding: 1rem;
+      }
+}
