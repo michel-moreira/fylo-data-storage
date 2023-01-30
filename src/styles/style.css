@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   background: url(../images/bg-desktop.png) no-repeat center bottom;
   background-color: var(--very-dark-blue);
-  background-size: contain;
+  background-size: 100% 50%;
   font-size: 1.4rem;
   font-family: "Raleway", sans-serif;
 }
