@@ -3,9 +3,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(../images/bg-desktop.png) no-repeat left -10rem bottom -34rem;
+  background: url(../images/bg-desktop.png) no-repeat center bottom;
   background-color: var(--very-dark-blue);
-  background-size: cover;
   font-size: 1.4rem;
   font-family: "Raleway", sans-serif;
 }
@@ -17,7 +16,6 @@ body {
   max-width: 100%;
   min-height: 100vh;
   gap: 3rem;
-  margin: 3rem;
   padding: 3rem;
 }
 /* ==================================== */
@@ -113,36 +111,37 @@ body {
 
 /* ========================= */
 .container .current-storage .float-info .storage-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    border-radius: 1rem;
-    background-color: var(--pale-blue);
-    padding: 0.7rem;
-    position: relative;
-    width: 18rem;
-    transform: translateY(-118%);
-    left: 28rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  background-color: var(--pale-blue);
+  padding: 0.7rem;
+  position: relative;
+  width: 18rem;
+  transform: translateY(-118%);
+  left: 28rem;
 }
-.container .current-storage .float-info .storage-info::after{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 30px solid transparent;
-    border-right: 30px solid var(--pale-blue);
+.container .current-storage .float-info .storage-info::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid var(--pale-blue);
 
-    bottom: -22px;
-    left: 83.5%;
+  bottom: -22px;
+  left: 83.5%;
 }
 
-.container .current-storage .float-info .storage-info .heading{
-    font-size: 4rem;
+.container .current-storage .float-info .storage-info .heading {
+  font-size: 4rem;
+  color: var(--very-dark-blue);
 }
-.container .current-storage .float-info .storage-info .storage-left{
-    text-transform: uppercase;
-    font-size: 1.4rem;
+.container .current-storage .float-info .storage-info .storage-left {
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 /* ######################### */
