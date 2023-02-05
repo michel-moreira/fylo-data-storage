@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-data-storage-responsive-css-flexbox-bt16tt66or)
+- Live Site URL: [Github pages](https://michel-moreira.github.io/fylo-data-storage/)
 
 ## My process
 
